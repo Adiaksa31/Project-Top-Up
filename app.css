@@ -1,0 +1,456 @@
+body{
+    background-color: #242424;
+    
+}
+
+.bg1 {
+    background-image: url('img/bg1.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 207vh;
+    margin-bottom: -5px;
+    color: white;
+}
+.bg11 {
+    background-image: url('img/bg1.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 207vh;
+    margin-bottom: -5px;
+    color: white;
+}
+.bg111 {
+    background-image: url('img/bg1.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 217vh;
+    margin-bottom: -5px;
+    color: white;
+}
+.bg1111 {
+    background-image: url('img/bg1.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 277vh;
+    margin-bottom: -5px;
+    color: white;
+}
+.bg1111 {
+    background-image: url('img/bg1.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 307vh;
+    margin-bottom: -5px;
+    color: white;
+}
+.bg2 {
+    background-image: url('img/bg2.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 190vh;
+    color: white;
+    margin-bottom: -5px;
+}
+.bg22 {
+    background-image: url('img/bg2.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 300vh;
+    color: white;
+    margin-bottom: -5px;
+}
+.bg3 {
+    background-image: url('img/bg3.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 62vh;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .bg1{
+        height: 320vh;
+    }
+    .bg11{
+        height: 219vh;
+    }
+    .bg2{
+        height: 290vh;
+    }
+    .bg3{
+        height: 90vh;
+    }
+  }
+
+/* navbar */
+nav ul li{
+    padding-left: 20px;
+}
+.nav-link{
+    color: white;
+}
+nav .divider {
+	width: 1px;
+	background: white;
+	height: 50px;
+	display: block;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:active,
+.navbar-nav .nav-link:hover,
+        .navbar-nav .show > .nav-link,
+        .navbar-nav .nav-link:focus {
+            color: #E54649;
+        }
+
+.search-input .input{
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding: 8px;
+
+}
+.navbar {
+    transition: box-shadow 0.3s, background-color rgb(255, 255, 255, 0.9) 0.9s;
+    height: 80px;
+}
+.navbar.blur {
+    backdrop-filter: blur(3px);
+    background-color: transparent;
+}
+/* end navbar */
+
+
+/* button */
+.btn-white{
+    background-color: transparent; 
+    display: flex;
+}
+.btn-white i{
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.button1{
+    border: 1px solid #E54649;
+}
+.button1 a{
+    text-decoration: none;
+    color: #E54649;
+}
+.button2{
+    border: 1px solid #E54649;
+    background-color: #E54649;
+}
+.button2 a{
+    text-decoration: none;
+    color: white;
+}
+/* end button */
+
+/* card */
+.card-body p{
+    color: white;
+}
+
+/* end card */
+
+/* footer */
+.footer{
+    color: #E54649;
+    text-decoration: none;
+
+}
+.pay{
+    background-color: white;
+    border-radius: 10px;
+    width: 60px; 
+    height: 35px;
+    padding: 5px;
+}
+.pay img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* end footer */
+
+/* home page */
+.gambar-hero {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 9px;
+    top: -30px;
+}
+
+.rectangle {
+    position: absolute;
+}
+.rectangle img {   
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(2px 2px 30px rgba(194, 59, 55, 0.1));
+}
+
+.hero{
+    padding-top: 120px;
+}
+@media (max-width: 768px) {
+    .hero{
+        padding-top: 20px;
+    }
+  }
+
+.unggul .card{
+    background-color: transparent;
+    border: none;
+
+}
+.unggul .card .card-title{
+    color: white;
+}
+.unggul .card .card-text{
+    font-size: 12px;
+    color: #F6BC97;
+
+}
+  .card .custom-icon{
+    font-size: 100px; 
+    margin: 0 auto; 
+    display: block;
+    color: #E54649;
+  }
+
+.produk .card{
+    background-color: transparent;
+    border: 1px solid #818181;
+}
+.produk .card .card-header{
+    background-color: #AAAAAA;
+    padding: 0 50px;
+    color: white;
+    overflow-x: auto; 
+    white-space: nowrap;
+}
+.kategori-item {
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin-right: 10px; 
+}
+.kategori-item.active,
+.kategori-item:hover{ 
+    color: #E54649;
+    border-bottom: 2px solid #E54649;
+}
+
+.produk .kategori .card{
+    border-radius: 20px;
+    background-color: #444343;
+    border: none;
+    color: white;
+}
+.kategori .card img{
+    border-radius: 30px;
+    padding: 12px;
+}
+.kategori .card .card-title{
+    font-size: 15px;
+}
+.button-artikel {
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}
+.button-artikel1 {
+    position: absolute;
+    bottom: 110px;
+    left: 30px;
+}
+/* end homepage */
+
+
+/* invoicepage & transaksipage*/
+.invoice .card{
+    background-color: #818181;
+    border: 1px solid #818181;
+}
+.transaksi{
+    background-color: #1B1A1A;
+    border-radius: 10px;
+}
+.transaksi .container{
+    color: white;
+}
+.produk .card{
+    background-color: transparent;
+    border: 1px solid #818181;
+}
+.produk .card .card-header{
+    background-color: #AAAAAA;
+    padding: 0 50px;
+    color: white;
+    overflow-x: auto; 
+    white-space: nowrap;
+}
+/* end invoicepage & transaksipage*/
+
+/* kalkulatorpage */
+.kalkulator .card{
+    background-color: #818181;
+    border: 1px solid #818181;
+}
+#toggleCard.rotate {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease; 
+  }
+label{
+    color: white;
+}
+/* end kalkulatorpage */
+
+/* reviewpage */
+.review{
+    background-color: #1B1A1A;
+    border-radius: 10px;
+}
+.review .container{
+    color: white;
+}
+.rate i{
+    color: gold;
+}
+/* end reviewpage */
+
+
+/* produkpage */
+
+.jasa{
+    color: #E54649;
+}
+.jasa i{
+    font-size: 50px;
+    padding-top: 5px;
+}
+.jasas{ 
+    color: white;
+    background-color: #E54649;
+    border-radius: 5px;
+}
+.jasa:hover{ 
+    color: white;
+    background-color: #E54649;
+    border-radius: 5px;
+}
+.driver{
+    width: 130px;
+	background-color: #E54649;
+	height: 3px;
+	display: block;
+}
+.banner{
+    height: 400px;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .banner{
+        height: 200px;
+        width: 100%;
+    }
+  }
+/* end produkpage */
+
+/* detailpage */
+.detail .card{
+    background-color: #818181;
+    border: 1px solid #818181;
+}
+.detaile span{
+    padding: 5px;
+    background-color: #E54649;
+    color: white;
+    border-radius: 5px;
+}
+
+.cards {
+    position: relative;
+    background: linear-gradient(to right,#818181, #AAAAAA);
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.cards-icon {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: yellow; 
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 24px; 
+}
+/* end detailpage */
+
+/* orderpage */
+.pays{
+    background-color: white;
+    border-radius: 20px;
+    width: 250px; 
+    height: 80px;
+    padding: 5px;
+}
+.pays img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* end orderpage */
+
+/* artikelpage */
+/* Hero */
+.overlay {
+    position: absolute;
+    z-index: 3;
+    top: 600px;
+    left: 200px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+@media (max-width: 768px) {
+    .overlay {
+        top: 530px;
+        left: 35px;
+        padding: 30px;
+    }
+  }
+.carousel-control-prev, .carousel-control-next{
+    z-index: 99;
+}
+.carousel-item img{
+    height: 630px;
+    width: auto;
+}
+.layer::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: 480px;
+    left: 0;
+    background: rgba(51, 51, 53, 0.5);
+    z-index: 1;
+}
+.button-artikel2 {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+.custom-kategori {
+    width: 100%; 
+    height: 110px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end artikelpage */

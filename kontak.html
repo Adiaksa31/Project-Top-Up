@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to Bootstrap Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="app.css">
+    <title>Home Page</title>
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="container-fluid navbar navbar-expand-lg bg-transparent sticky-top">
+    <div class="container py-1">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" idth="100%"
+        height="50"></a>
+      <button class="navbar-toggler btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cek Transaksi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kalkulator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Artikle</a>
+          </li>
+        </ul>
+        <form class="d-flex py-3">
+          <div class="search-box d-flex align-items-center bg-white px-3 rounded">
+            <div class="search-icon" style="color: grey;"><i class="bi bi-search"></i></div>
+            <div class="search-input"><input class="input" type="search" placeholder="Cari kebutuhan anda..." aria-label="Search"></div>
+          </div>
+        </form>
+        <div class="px-3 d-none d-md-block "><span class="divider"></span></div>
+        <div class="button1 py-2 px-3 rounded">
+            <a class="daftar" href="">Daftar</a>
+        </div>
+        <div class="px-2 py-2"></div>
+        <div class="button2 py-2 px-3 rounded">
+            <a class="masuk" href="">Masuk</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- kontakpage -->
+   <section id="kontak" class="bg11 kontak">
+    <div class="container pt-5">
+        <div class="row">
+            <!-- content bagian kiri -->
+            <div class="col-md-4">
+                <h1>Hubungi Kami</h1>
+                <p>Mengalami masalah waktu transaksi? ingin punya bisnis voucher game? silahkan hubungi kami di samping dan sesuaikan dengan kebutuhan anda!</p>
+                <br>
+                <h4>CV. BANGJEFF</h4>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-11">
+                            <p>Perum Puri Pratama K10-11 Sumberkolak, Kec.Panarukan, Kab. Situbondo, Jawa Timur, Indonesia. 68351.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-11">
+                            <p>+6283197513364</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end content bagian kiri -->
+
+            <!-- content bagian kanan -->
+            <div class="col-md-8">
+                <!-- button -->
+                <div class="container p-5">
+                    <div class="row text-center px-5">
+                        <div class="col">
+                        <div class="button2 py-4 px-3 rounded" style="border: none;">
+                            <a href=""><i class="fa fa-envelope" style="font-size: 50px;"></i><p>cs.bangjeff.com</p></a>
+                        </div>
+                        </div>
+                        <div class="col">
+                            <div class="button2 py-4 px-3 rounded bg-transparent" style="border: none;">
+                                <a href="" style="color: #E54649;"><i class="fa fa-phone" style="font-size: 50px;"></i><p>+6283197513364</p></a>
+                            </div>
+                            </div>
+                    </div> 
+                </div>
+                <!-- end button -->
+                <!-- content -->
+                <div class="p-5 rounded" style="background-color: #696969; color: white;">
+                    <h5>Report / Request Form</h5>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nama" class="form-label">Nama Lengkap:</label>
+                                    <input type="text" class="form-control" id="nama" placeholder="Masukkan nama lengkap">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Masukkan email">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="email" class="form-label">Nomer Handphone:</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Masukkan nomer">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Tipe Masalah:</label>
+                                    <input type="email" class="form-control" style="background-color: #818181; color: white; border: none;" id="email" placeholder="Pilih masalahmu                                   >">
+                                  </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nama" class="form-label">Deskripsi Masalah:</label>
+                                    <input type="text" class="form-control" style="height: 300px;" id="nama" placeholder="jelaskan masalahmu disini...">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="container mt-4">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <button class="button2 rounded py-2 px-5" style="color: white;">Kirim Form</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end content -->
+            </div>
+            <!-- end content bagian kanan -->
+        </div>
+    </div>
+        <br><br>
+
+    <!-- footer -->
+    <footer class="container" style="padding-top: 540px;">
+      <div class="row">
+        <div class="col-14 col-md-4 mx-auto ">
+          <div class="container d-flex justify-content-center align-items-center">
+              <img src="img/logo.png" alt="Gambar" class="image" width="100px"
+              height="100px">
+          </div>
+          <small class="d-block mb-3 px-2 text-center">Supplier top up game & voucher terlaris, murah, aman legal 100% buka 24 Jam dengan payment terlengkap Indonesia</small>
+        <div class="container row d-flex pb-4">
+          <div class="container footer">
+              <a class="bg-white rounded" style="padding: 20px 10px 25px 10px" role="button"><img src="img/fb.jpg" alt="" width="50px" height="50px"></a>
+              <a class="bg-white rounded" style="padding: 20px 10px 25px 10px" role="button"><img src="img/ig.jpg" alt="" width="50px" height="50px"></a>
+              <a class="bg-white rounded" style="padding: 20px 10px 25px 10px" role="button"><img src="img/line.jpg" alt="" width="50px" height="50px"></a>
+          </div>
+        </div>
+        </div>
+        <hr class="w-100 clearfix d-md-none " />
+        <div class="col-4 col-md mx-auto ">
+          <h5>Partnership</h5>
+          <ul class="list-unstyled text-small">
+            <li class="py-3"><a class="footer" href="#">Join reseller</a></li>
+            <li class="pb-3"><a class="footer" href="#">Dashboard</a></li>
+            <li class="pb-3"><a class="footer" href="#">Deposit</a></li>
+            <li class="pb-3"><a class="footer" href="#">Price List</a></li>
+          </ul>
+        </div>
+        <div class="col-4 col-md mx-auto ">
+          <h5>Site Map</h5>
+          <ul class="list-unstyled text-small">
+              <li class="py-3"><a class="footer" href="#">Home</a></li>
+              <li class="pb-3"><a class="footer" href="#">Produk</a></li>
+              <li class="pb-3"><a class="footer" href="#">Cek Transaksi</a></li>
+              <li class="pb-3"><a class="footer" href="#">Kalkulator</a></li>
+              <li class="pb-3"><a class="footer" href="#">Hubungi Kami</a></li>
+              <li class="pb-3"><a class="footer" href="#">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="col-4 col-md mx-auto ">
+          <h5>Legal</h5>
+          <ul class="list-unstyled text-small">
+              <li class="py-3"><a class="footer" href="#">Privacy Policy</a></li>
+              <li class="pb-3"><a class="footer" href="#">Terms & Condition</a></li>
+          </ul>
+        </div>
+        <hr class="w-100 clearfix d-md-none" />
+        <div class="col-10 col-md-3 mx-auto ">
+          <h5 class="text-center">Payment Method</h5>
+          <div class="container row row-cols-4 row-cols-md-4 g-2 py-3">
+            <div class="col">
+                <div class="pay"><img src="img/dana.PNG" alt=""></div>
+            </div>
+            <div class="col">
+              <div class="pay"><img src="img/shpe.PNG" alt=""></div>
+          </div>
+          <div class="col">
+            <div class="pay"><img src="img/qris.PNG" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="pay"><img src="img/ovo.PNG" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="pay"><img src="img/bca.PNG" alt=""></div>
+        </div>
+        <div class="col">
+            <div class="pay"><img src="img/bri.PNG" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="pay"><img src="img/mandiri.PNG" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="pay"><img src="img/bni.PNG" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="pay"><img src="img/permata.PNG" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="pay"><img src="img/bc.PNG" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="pay"><img src="img/danamon.PNG" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="pay"><img src="img/mybank.PNG" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="pay"><img src="img/link.PNG" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="pay"><img src="img/alfa.PNG" alt=""></div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+   </section>
+   <!-- end kontakrpage -->
+
+   
+   <section id="footer" class="bg3">
+   </section>
+
+    <!-- Script to Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script Link to Js -->
+    <script src="app.js"></script>
+</body>
+</html>

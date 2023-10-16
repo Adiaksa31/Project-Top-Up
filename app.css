@@ -293,6 +293,21 @@ nav .divider {
     overflow-x: auto; 
     white-space: nowrap;
 }
+@media (max-width: 768px) {
+     .item {
+      display: block;
+      width: 100%;
+      float: none;
+    }
+    .bg33{
+        background-image: none; /* Ganti dengan gambar latar belakang Anda */
+        background-size: none;
+        background-position: none;
+        height: none;
+        color: none;
+    }
+  }
+  
 /* end invoicepage & transaksipage*/
 
 /* kalkulatorpage */

@@ -477,3 +477,39 @@ label{
     align-items: center;
 }
 /* end artikelpage */
+
+
+.profile-circle{
+    background-color: #E54649;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.member .navbar-nav .nav-item{
+    border-radius: 10px;
+
+}
+.member .navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    padding: 0 10px;
+    color: white;
+}
+.member .navbar-nav .nav-item.active, .member .navbar-nav .nav-item:active,
+.member .navbar-nav .nav-item:hover,
+   .member     .navbar-nav .show > .nav-item,
+   .member     .navbar-nav .nav-item:focus {
+           background-color: #E54649;
+            
+        }
+        .gradient-text {
+            font-size: 36px;
+            background-image: linear-gradient(30deg, #E54649, #FFA500);
+            -webkit-background-clip: text;
+            color: transparent;
+            display: inline;
+        }

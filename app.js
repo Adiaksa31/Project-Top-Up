@@ -50,3 +50,4 @@ window.addEventListener('scroll', () => {
         icon.classList.add("rotate");
       }
     });
+

@@ -11,6 +11,14 @@ body{
     margin-bottom: -5px;
     color: white;
 }
+.bglogin {
+    background-image: url('img/bg1.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-bottom: -5px;
+    color: white;
+}
 .bg11 {
     background-image: url('img/bg1.PNG'); /* Ganti dengan gambar latar belakang Anda */
     background-size: cover;

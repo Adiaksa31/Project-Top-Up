@@ -12,7 +12,7 @@
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <!-- Link to CSS -->
     <link rel="stylesheet" href="app.css">
-    <title>Member Dashboard</title>
+    <title>Membership</title>
 </head>
 <body>
   <!-- navbar -->
@@ -75,10 +75,10 @@
               <div class="p-4 rounded" style="background-color: #696969; color: white;">
                  <div class="container">
                     <ul class="navbar-nav p-2">
-                        <li class="nav-item p-3 active"><a class="nav-link" href="memDashboard.html"><i class='bx bxs-dashboard'></i> Dashboard Akun</a></li>
+                        <li class="nav-item p-3"><a class="nav-link" href="memDashboard.html"><i class='bx bxs-dashboard'></i> Dashboard Akun</a></li>
                         <li class="nav-item p-3"><a class="nav-link" href="membership.html"><i class='bx bxs-id-card'></i> Membership</a></li>
-                        <li class="nav-item p-3"><a class="nav-link" href="toup.html"><i class='bx bxs-wallet'></i> Top Up Saldo</a></li>
-                        <li class="nav-item p-3"><a class="nav-link" href="riwayat.html"><i class='bx bxs-time-five'></i> Riwayat Transaksi</a></li>
+                        <li class="nav-item p-3"><a class="nav-link" href="topup.html"><i class='bx bxs-wallet'></i> Top Up Saldo</a></li>
+                        <li class="nav-item p-3 active"><a class="nav-link" href="riwayat.html"><i class='bx bxs-time-five'></i> Riwayat Transaksi</a></li>
                         <li class="nav-item p-3"><a class="nav-link" style="color: #E54649;" href="homepage.html"><i class='bx bxs-log-out-circle'></i> Keluar</a></li>
                     </ul>
                  </div>
@@ -89,89 +89,86 @@
           <!-- kolom kanan -->
           <div class="col-md-8">
                <!-- content bagian 1 -->
-               <div class="p-4 rounded" style="background-color: #696969; color: white;">
-                  <div class="row">
-                    <div class="col-md-1 pt-1">
-                        <div class="profile-circle">GF</div>
-                    </div>
-                    <div class="col-md-8">
-                        <h5>Gilang Fathoni</h5>
-                        <p><i class='bx bxs-id-card'></i> Reguler Membership</p>
-                    </div>
-                    <div class="col-md-3 pt-2 justify-content-end text-center">
-                        <div class="button2 py-2 px-3 rounded">
-                            <a href="">Edit Profil</a>
-                        </div>
-                    </div>
-                  </div>
-                  <hr>
-                  <p><i class='bx bxs-phone'></i> 081392413876</p>
-               </div>
+                <h3>Riwayat Transaksi</h3>
+                <p>Menampilkan data histori transaksi yang telah Anda lakukan selama periode yang dipilih.</p>
                <!-- end content bagian 1 -->
                 <!-- content bagian 2 -->
                 <br>
                 <div class="p-4 rounded" style="background-color: #696969; color: white;">
                     <div class="row">
-                      <div class="col-md-9 pt-3">
-                          <h6>Total Saldo</h6>
-                      </div>
-                      <div class="col-md-3 pt-2 justify-content-end text-center">
-                          <div class="button2 py-2 px-3 rounded" style="background-color: #F5791E;">
-                              <a href="">Top Up</a>
-                          </div>
-                      </div>
-                      <h3 class="gradient-text">RP 0,-</h3>
+                        <div class="col-md-3">
+                            <form action="" class="pt-2">
+                                <label for="email" class="form-label">Status</label>
+                                <div class="search-box d-flex align-items-center bg-white px-3 rounded">
+                                    <div class="search-icon" style="color: grey;"></div>
+                                    <div class="search-input"><input class="input" type="search" placeholder="Semua              >" aria-label="Search"></div>
+                                  </div>
+                            </form>
+                        </div>
+                        <div class="col-md-3">
+                            <form action="" class="pt-2">
+                                <label for="email" class="form-label">Status Pembayaran</label>
+                                <div class="search-box d-flex align-items-center bg-white px-3 rounded">
+                                    <div class="search-icon" style="color: grey;"></div>
+                                    <div class="search-input"><input class="input" type="search" placeholder="Semua              >" aria-label="Search"></div>
+                                  </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <form action="" class="pt-2">
+                                <label for="email" class="form-label">Cari Nomer Pesanan</label>
+                                <div class="search-box d-flex align-items-center bg-white px-3 rounded">
+                                    <div class="search-icon" style="color: grey;"><i class="bi bi-search"></i></div>
+                                    <div class="search-input"><input class="input" type="search" placeholder="BJ*********980" aria-label="Search"></div>
+                                  </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="container mt-4">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <button class="button2 rounded py-2 px-5" style="color: white;">Cari Pesanan</button>
+                            </div>
+                        </div>
                     </div>
                  </div>
                  <!-- end content bagian 2 -->
                   <!-- content bagian 3 -->
                 <br>
-                <div class="p-4 rounded" style="background-color: #696969; color: white;">
-                    <div class="row">
-                      <div class="col-md-9 pt-3">
-                          <h6>Total Pembelian</h6>
-                      </div>
-                      <div class="col-md-3 pt-2 justify-content-end text-center">
-                          <div class="button2 py-2 px-3 rounded" style="background-color: #F5791E;">
-                              <a href="">Beli Sekarang</a>
-                          </div>
-                      </div>
-                      <h3 class="gradient-text">RP 150.00,-</h3>
-                    </div>
-                 </div>
+                <div class="container produk">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="kategori-item">Nomer Pesanan</div>
+                            <div class="kategori-item">Layanan</div>
+                            <div class="kategori-item">Nama</div>
+                            <div class="kategori-item">Harga</div>
+                            <div class="kategori-item">Tanggal</div>
+                            <div class="kategori-item">Status</div>
+                        </div>
+                        <div class="card-body px-2 px-md-5" style="background-color:  #696969;">
+                            <p class="text-center pt-5"> Tidak ada data ditemukan!</p>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-6">
+                                    <img src="img/mem.png" alt="Gambar Anda" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
                  <!-- end content bagian 3 -->
-                  <!-- content bagian 4 -->
-                <br>
-                <div class="p-4 rounded" style="background-color: #696969; color: white;">
-                    <h6>Pesanan Saya</h6>
-                    <br>
-                    <div class="row row-cols-2 row-cols-md-4">
-                        <div class="col text-center">
-                            <h2>0</h2>
-                            <p>Belum bayar</p>
-                        </div>
-                        <div class="col text-center">
-                            <h2>0</h2>
-                            <p>Tertunda</p>
-                        </div>
-                        <div class="col text-center">
-                            <h2>2</h2>
-                            <p>Sukses</p>
-                        </div>
-                        <div class="col text-center">
-                            <h2>0</h2>
-                            <p>Kadaluarsa</p>
-                        </div>
-                    </div>
-                    </div>
+                 <div class="container py-2">
+                <div class="row">
+                    <div class="col-md-7">Menampilkan hasil 0 dari 10</div>
+                    <div class="col-md-3 text-end" style="color:#E54649;"><i class="fa fa-arrow-circle-left" style=" font-size: 15px;" aria-hidden="true"></i> Sebelumnya</div>
+                    <div class="col-md-2 text-end" style="color:#E54649;">Berikutnya <i class="fa fa-arrow-circle-right" style="font-size: 15px;" aria-hidden="true"></i></div>
+                </div>
                  </div>
-                 <!-- end content bagian 4 -->
           </div>
           <!-- end kolom kanan -->
       </div>
     </div>
     <!-- footer -->
-    <footer class="container" style="padding-top: 640px;">
+    <footer class="container" style="padding-top: 560px;">
       <div class="row">
         <div class="col-14 col-md-4 mx-auto ">
           <div class="container d-flex justify-content-center align-items-center">

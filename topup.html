@@ -12,7 +12,7 @@
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <!-- Link to CSS -->
     <link rel="stylesheet" href="app.css">
-    <title>Member Dashboard</title>
+    <title>Membership</title>
 </head>
 <body>
   <!-- navbar -->
@@ -75,9 +75,9 @@
               <div class="p-4 rounded" style="background-color: #696969; color: white;">
                  <div class="container">
                     <ul class="navbar-nav p-2">
-                        <li class="nav-item p-3 active"><a class="nav-link" href="memDashboard.html"><i class='bx bxs-dashboard'></i> Dashboard Akun</a></li>
+                        <li class="nav-item p-3"><a class="nav-link" href="memDashboard.html"><i class='bx bxs-dashboard'></i> Dashboard Akun</a></li>
                         <li class="nav-item p-3"><a class="nav-link" href="membership.html"><i class='bx bxs-id-card'></i> Membership</a></li>
-                        <li class="nav-item p-3"><a class="nav-link" href="toup.html"><i class='bx bxs-wallet'></i> Top Up Saldo</a></li>
+                        <li class="nav-item p-3 active"><a class="nav-link" href="topup.html"><i class='bx bxs-wallet'></i> Top Up Saldo</a></li>
                         <li class="nav-item p-3"><a class="nav-link" href="riwayat.html"><i class='bx bxs-time-five'></i> Riwayat Transaksi</a></li>
                         <li class="nav-item p-3"><a class="nav-link" style="color: #E54649;" href="homepage.html"><i class='bx bxs-log-out-circle'></i> Keluar</a></li>
                     </ul>
@@ -89,89 +89,137 @@
           <!-- kolom kanan -->
           <div class="col-md-8">
                <!-- content bagian 1 -->
-               <div class="p-4 rounded" style="background-color: #696969; color: white;">
-                  <div class="row">
-                    <div class="col-md-1 pt-1">
-                        <div class="profile-circle">GF</div>
-                    </div>
-                    <div class="col-md-8">
-                        <h5>Gilang Fathoni</h5>
-                        <p><i class='bx bxs-id-card'></i> Reguler Membership</p>
-                    </div>
-                    <div class="col-md-3 pt-2 justify-content-end text-center">
-                        <div class="button2 py-2 px-3 rounded">
-                            <a href="">Edit Profil</a>
-                        </div>
-                    </div>
-                  </div>
-                  <hr>
-                  <p><i class='bx bxs-phone'></i> 081392413876</p>
-               </div>
+                <h3>Top Up Saldo</h3>
+                <p>Topuplah hari-harimu dengan kejutan tak terduga! Nikmati kemudahan dan rasakan sensasi berbeda dalam setiap transaksi. Jangan lewatkan kesempatan untuk mengisi energimu dengan top up langsung!</p>
                <!-- end content bagian 1 -->
                 <!-- content bagian 2 -->
                 <br>
                 <div class="p-4 rounded" style="background-color: #696969; color: white;">
-                    <div class="row">
-                      <div class="col-md-9 pt-3">
-                          <h6>Total Saldo</h6>
-                      </div>
-                      <div class="col-md-3 pt-2 justify-content-end text-center">
-                          <div class="button2 py-2 px-3 rounded" style="background-color: #F5791E;">
-                              <a href="">Top Up</a>
-                          </div>
-                      </div>
-                      <h3 class="gradient-text">RP 0,-</h3>
-                    </div>
+             
+                        <div class="d-flex">
+                            <div class="col-2 "><h5>Top Up cepat</h5></div>
+                        </div>
+                        <div class="row row-cols-2 row-cols-md-4 g-4 py-2">
+                            
+                            <div class="col">
+                                <div class="card" style="background-color: white;">
+                                    <div class="cards-body p-2">
+                                        <p>Paket Pemula</p>
+                                        <h6 class="fw-bold">Rp 100.000,-</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="background-color: white;">
+                                    <div class="cards-body p-2">
+                                        <p>Paket Menengah</p>
+                                        <h6 class="fw-bold">Rp 300.000,-</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="background-color: white;">
+                                    <div class="cards-body p-2">
+                                        <p>Paket Ahli </p>
+                                        <h6 class="fw-bold">Rp 700.000,-</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="background-color: white;">
+                                    <div class="cards-body p-2">
+                                        <p>Paket Sesepuh</p>
+                                        <h6 class="fw-bold">Rp 1.000.000,-</h6>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
                  </div>
                  <!-- end content bagian 2 -->
                   <!-- content bagian 3 -->
                 <br>
                 <div class="p-4 rounded" style="background-color: #696969; color: white;">
-                    <div class="row">
-                      <div class="col-md-9 pt-3">
-                          <h6>Total Pembelian</h6>
-                      </div>
-                      <div class="col-md-3 pt-2 justify-content-end text-center">
-                          <div class="button2 py-2 px-3 rounded" style="background-color: #F5791E;">
-                              <a href="">Beli Sekarang</a>
+                  <h5>Top Up Jumlah Lain</h5>
+                    <form action="" class="pt-2">
+                        <div class="search-box d-flex align-items-center bg-white px-3 rounded">
+                            <div class="search-icon" style="color: grey;"></div>
+                            <div class="search-input"><input class="input" type="search" placeholder="Contoh : Rp 1.500.000" aria-label="Search"></div>
                           </div>
-                      </div>
-                      <h3 class="gradient-text">RP 150.00,-</h3>
-                    </div>
+                    </form>
                  </div>
                  <!-- end content bagian 3 -->
                   <!-- content bagian 4 -->
                 <br>
                 <div class="p-4 rounded" style="background-color: #696969; color: white;">
-                    <h6>Pesanan Saya</h6>
-                    <br>
-                    <div class="row row-cols-2 row-cols-md-4">
-                        <div class="col text-center">
-                            <h2>0</h2>
-                            <p>Belum bayar</p>
+                    <h5>Pilih Metode Pembayaran</h5>
+
+                        <div class="card" style="color: white; background-color: #818181;">
+                          <div class="card-header detaile">
+                              <p class="pt-3">QRIS</p>
+                          </div>
+                          <div class="card-body rounded-bottom" style="background-color: white;">
+                            <div class="row justify-content-end">
+                              <div class="col-7">     
+                              </div>
+                          </div>
+                          </div>
                         </div>
-                        <div class="col text-center">
-                            <h2>0</h2>
-                            <p>Tertunda</p>
+                        <br>
+                        <div class="card" style="color: white; background-color: #818181;">
+                          <div class="card-header detaile">
+                              <p class="pt-3">E-Wallet</p>
+                          </div>
+                          <div class="card-body rounded-bottom" style="background-color: white;">
+                            <div class="row justify-content-end">
+                              
+                              <div class="col-9">
+                                 
+                              </div>
+                          </div>
+                          </div>
                         </div>
-                        <div class="col text-center">
-                            <h2>2</h2>
-                            <p>Sukses</p>
+                        <br>
+                        <div class="card" style="color: white; background-color: #818181;">
+                          <div class="card-header detaile">
+                              <p class="pt-3">Convenience Store</p>
+                          </div>
+                          <div class="card-body rounded-bottom" style="background-color: white;">
+                            <div class="row justify-content-end">
+                              <div class="col-4">
+                                 
+                              </div>
+                          </div>
+                          </div>
                         </div>
-                        <div class="col text-center">
-                            <h2>0</h2>
-                            <p>Kadaluarsa</p>
+                        <br>
+                        <div class="card" style="color: white; background-color: #818181;">
+                          <div class="card-header detaile">
+                              <p class="pt-3">Transfer Bank</p>
+                          </div>
+                          <div class="card-body rounded-bottom" style="background-color: white;">
+                            <div class="row justify-content-end">
+                              <div class="col-6">
+                                  
+                              </div>
+                          </div>
+                          </div>
                         </div>
-                    </div>
-                    </div>
-                 </div>
+                </div>
                  <!-- end content bagian 4 -->
+                 <div class="container mt-4">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <button class="button2 rounded py-2 px-5" style="color: white;">Bayar Sekarang</button>
+                        </div>
+                    </div>
+                </div>
           </div>
           <!-- end kolom kanan -->
       </div>
     </div>
     <!-- footer -->
-    <footer class="container" style="padding-top: 640px;">
+    <footer class="container" style="padding-top: 230px;">
       <div class="row">
         <div class="col-14 col-md-4 mx-auto ">
           <div class="container d-flex justify-content-center align-items-center">

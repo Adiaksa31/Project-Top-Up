@@ -27,6 +27,14 @@ body{
     margin-bottom: -5px;
     color: white;
 }
+.bg1mem {
+    background-image: url('img/bg1.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 234vh;
+    margin-bottom: -5px;
+    color: white;
+}
 .bg111 {
     background-image: url('img/bg1.PNG'); /* Ganti dengan gambar latar belakang Anda */
     background-size: cover;
@@ -512,4 +520,30 @@ label{
             -webkit-background-clip: text;
             color: transparent;
             display: inline;
+        }
+
+
+        .circle{
+            background-color: transparent;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            border: 1px solid #E54649;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #E54649;
+            font-weight: bold;
+        }
+        .cards1 {
+            position: relative;
+            background: linear-gradient(to right,#E07A3F, #F79E63);
+            border-radius: 10px;
+            font-size: 10px;
+        }
+        .cards2 {
+            position: relative;
+            background: linear-gradient(to right,#F5791E, #FBBC04);
+            border-radius: 10px;
+            font-size: 10px;
         }

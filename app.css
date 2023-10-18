@@ -67,6 +67,14 @@ body{
     color: white;
     margin-bottom: -5px;
 }
+.bg222 {
+    background-image: url('img/bg2.PNG'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    color: white;
+    margin-bottom: -5px;
+}
 .bg22 {
     background-image: url('img/bg2.PNG'); /* Ganti dengan gambar latar belakang Anda */
     background-size: cover;
@@ -88,7 +96,7 @@ body{
         height: 320vh;
     }
     .bg11{
-        height: 219vh;
+        height: 168vh;
     }
     .bg2{
         height: 290vh;
@@ -97,7 +105,64 @@ body{
         height: 90vh;
     }
   }
-
+  @media (min-width: 768px) and (max-width: 991px) {
+    .bg1{
+        height: 130vh;
+    }
+    .bg2{
+        height: 122vh;
+    }
+    .bg3{
+        height: 65vh;
+    }
+    .bg11{
+        height: 100vh;
+    }
+    .bg111{
+        height: 115vh;
+    }
+    .bg1111 {
+        height: 171vh;
+    }
+    #review{
+        height: 275vh;
+    }
+    #privacy{
+        height: 340vh;
+    }
+    #term{
+        height: 270vh;
+    }
+  }
+  @media (min-width: 992px) {
+    .bg1{
+        height: 180vh;
+    }
+    .bg2{
+        height: 141vh;
+    }
+    .bg3{
+        height: 55vh;
+    }
+    .bg11{
+        height: 165vh;
+    }
+    #kontak{
+        height: 138vh;
+    }
+    #review{
+        height: 223vh;
+    }
+    #term{
+        height: 200vh;
+    }
+    .bg111{
+        height: 175vh;
+    }
+    .bg1111 {
+        height: 265vh;
+    }
+  }
 /* navbar */
 nav ul li{
     padding-left: 20px;
@@ -208,7 +273,26 @@ nav .divider {
     height: 150px;
     filter: drop-shadow(2px 2px 30px rgba(194, 59, 55, 0.1));
 }
-
+@media (min-width: 768px) and (max-width: 991px){
+    .gambar-hero {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        left: 180px;
+        top: 30px;
+    }
+    
+}
+@media (max-width: 768px){
+    .gambar-hero {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        left: 15px;
+        top: 30px;
+    }
+    
+}
 .hero{
     padding-top: 120px;
 }
@@ -309,6 +393,20 @@ nav .divider {
     overflow-x: auto; 
     white-space: nowrap;
 }
+@media (min-width: 768px) and (max-width: 991px){
+   .item {
+      display: block;
+      width: 100%;
+      float: none;
+    } 
+    .bg33{
+        background-image: none; 
+        background-size: none;
+        background-position: none;
+        height: none;
+        color: none;
+    }
+}
 @media (max-width: 768px) {
      .item {
       display: block;
@@ -316,7 +414,7 @@ nav .divider {
       float: none;
     }
     .bg33{
-        background-image: none; /* Ganti dengan gambar latar belakang Anda */
+        background-image: none; 
         background-size: none;
         background-position: none;
         height: none;
@@ -331,13 +429,14 @@ nav .divider {
     background-color: #818181;
     border: 1px solid #818181;
 }
-#toggleCard.rotate {
+#toggleCard.rotate .icn {
     transform: rotate(90deg);
     transition: transform 0.3s ease; 
   }
 label{
     color: white;
 }
+
 /* end kalkulatorpage */
 
 /* reviewpage */
@@ -366,12 +465,11 @@ label{
 .jasas{ 
     color: white;
     background-color: #E54649;
-    border-radius: 5px;
 }
 .jasa:hover{ 
     color: white;
     background-color: #E54649;
-    border-radius: 5px;
+    
 }
 .driver{
     width: 130px;
@@ -385,8 +483,13 @@ label{
 }
 @media (max-width: 768px) {
     .banner{
-        height: 200px;
+        height: 150px;
         width: 100%;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    .banner{
+        height: 250px;
     }
   }
 /* end produkpage */
@@ -442,23 +545,32 @@ label{
 .overlay {
     position: absolute;
     z-index: 3;
-    top: 600px;
+    top: 470px;
     left: 200px;
     color: #fff;
     font-family: 'Inter', sans-serif;
 }
 @media (max-width: 768px) {
     .overlay {
-        top: 530px;
+        top: 400px;
         left: 35px;
         padding: 30px;
     }
+   
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .overlay {
+        top: 430px;
+        left: 50px;
+        padding: 30px;
+    }
   }
+
 .carousel-control-prev, .carousel-control-next{
     z-index: 99;
 }
 .carousel-item img{
-    height: 630px;
+    height: 500px;
     width: auto;
 }
 .layer::before{
@@ -466,7 +578,7 @@ label{
     position: absolute;
     width: 100%;
     height: 150px;
-    top: 480px;
+    top: 350px;
     left: 0;
     background: rgba(51, 51, 53, 0.5);
     z-index: 1;

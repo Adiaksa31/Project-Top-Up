@@ -55,9 +55,9 @@
                 Gilang Fathoni
             <i class='toggle-icon bx bx-chevron-down px-2' style="color: #E54649;"></i></a>
             <ul class="dropdown-menu" aria-labelledby="profileDropdown">
-                <li><a class="dropdown-item" href="#"><i class='bx bxs-user-circle icon'></i> Profile</a></li>
+                <li><a class="dropdown-item" href="profil.html"><i class='bx bxs-user-circle icon'></i> Profile</a></li>
                 <li><a class="dropdown-item" href="#"><i class='bx bxs-cog'></i> Settings</a></li>
-                <li><a class="dropdown-item" href="#"><i class='bx bxs-log-out-circle'></i> Logout</a></li>
+                <li><a class="dropdown-item" href="login.html"><i class='bx bxs-log-out-circle'></i> Logout</a></li>
             </ul>
         </div>
       </div>
@@ -66,23 +66,23 @@
   <!-- end navbar -->
 
   <!-- kalkulatorpage -->
-   <section id="member" class="bg1mem member">
+   <section id="profil" class="bg1mem member">
     <div class="container py-4">
     <div class="row g-4">
         <!-- colom kiri -->
           <div class="col-md-4">
               <!-- content bagian 1 -->
-              <div class="p-4 rounded" style="background-color: #696969; color: white;">
-                 <div class="container">
-                    <ul class="navbar-nav p-2">
-                        <li class="nav-item p-3"><a class="nav-link" href="memDashboard.html"><i class='bx bxs-dashboard'></i> Dashboard Akun</a></li>
-                        <li class="nav-item p-3 active"><a class="nav-link" href="membership.html"><i class='bx bxs-id-card'></i> Membership</a></li>
-                        <li class="nav-item p-3"><a class="nav-link" href="topup.html"><i class='bx bxs-wallet'></i> Top Up Saldo</a></li>
-                        <li class="nav-item p-3"><a class="nav-link" href="riwayat.html"><i class='bx bxs-time-five'></i> Riwayat Transaksi</a></li>
-                        <li class="nav-item p-3"><a class="nav-link" style="color: #E54649;" href="homepage.html"><i class='bx bxs-log-out-circle'></i> Keluar</a></li>
-                    </ul>
-                 </div>
-              </div>
+              <div class="pt-3 rounded" style="background-color: #696969; color: white;">
+                <div class="container">
+                   <ul class="navbar-nav mem p-2">
+                       <li class="nav-item p-3 active my-2"><a class="nav-link text-limit" href="memDashboard.html"><i class='bx bxs-dashboard'></i> Dashboard Akun</a></li>
+                       <li class="nav-item p-3 my-2"><a class="nav-link text-limit" href="membership.html"><i class='bx bxs-id-card'></i> Membership</a></li>
+                       <li class="nav-item p-3 my-2"><a class="nav-link text-limit" href="topup.html"><i class='bx bxs-wallet'></i> Top Up Saldo</a></li>
+                       <li class="nav-item p-3 my-2"><a class="nav-link text-limit" href="riwayat.html"><i class='bx bxs-time-five'></i> Riwayat Transaksi</a></li>
+                       <li class="nav-item p-3 my-2"><a class="nav-link text-limit" style="color: #E54649;" href="homepage.html"><i class='bx bxs-log-out-circle'></i> Keluar</a></li>
+                   </ul>
+                </div>
+             </div>
               <!-- end content bagian 1 -->
           </div>
           <!-- end colom kiri -->
@@ -96,14 +96,15 @@
               
                <div class="p-2 rounded" style="background-color: #696969; color: white;">
                 <div class="row p-2">
-                  <div class="col-md-1 pt-3">
+                  <div class="col-xl-1 pt-3">
                       <div class="profile-circle">GF</div>
                   </div>
-                  <div class="col-md-8 pt-3">
+                  <div class="col-md-6 col-xl-8 pt-3">
                       <h5>Gilang Fathoni</h5>
                       <p><i class='bx bxs-id-card'></i> Reguler Membership</p>
                   </div>
-                  <div class="col-md-3 pt-3 justify-content-end text-end">
+                  <hr class="w-100 clearfix d-md-none " />
+                  <div class="col-md-6 col-xl-3 pt-3 justify-content-end text-start text-md-end">
                      <p>Tanggal Bergabung</p>
                      <p>28 Januari 2023</p>
                   </div>
@@ -111,12 +112,12 @@
              </div>
                  <!-- end content bagian 2 -->
                  <div class="d-flex mt-4">
-                    <div class="col-2 pe-3">
+                    <div class="col-4 col-xl-2 pe-3">
                         <div class="button2 py-2 px-3 rounded text-center">
                         <a class="daftar" href="profil.html">Profil</a>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-4 col-xl-2">
                         <div class="button1 py-2 px-3 rounded text-center">
                         <a class="daftar" href="profile1.html">Password</a>
                         </div>
@@ -140,7 +141,7 @@
                             <input type="text" class="form-control" id="nama" placeholder="Gilang Fathoni">
                         </div>
                         <div class="row mb-3">
-                            <div class="col-md-2">
+                            <div class="col-4 col-xl-2">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="rememberMe">
                                     <label class="form-check-label" for="rememberMe">
@@ -149,7 +150,7 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-4 col-xl-2">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="rememberMe">
                                     <label class="form-check-label" for="rememberMe">
@@ -165,11 +166,11 @@
                         </div>
                         <div class="mb-3">
                             <label for="nama" class="form-label">Alamat</label>
-                            <textarea name="" class="rounded" id="" cols="90" rows="6" placeholder=" Jl. Gili Manuk No 30, Denpasar Utara, Bali"></textarea>
+                            <textarea name="" class="rounded w-100" id="" style="height: 150px;" placeholder=" Jl. Gili Manuk No 30, Denpasar Utara, Bali"></textarea>
                         </div>
                     </form>
                     <div class="d-flex mt-4 justify-content-end">
-                        <div class="col-3">
+                        <div class="col-7 col-xl-3">
                             <div class="button2 py-2 px-3 rounded text-center">
                             <a class="daftar" href="">Perbarui Profil</a>
                             </div>
@@ -182,10 +183,16 @@
           <!-- end kolom kanan -->
       </div>
     </div>
+  
+   </section>
+   <!-- end kalkulatorpage -->
+
+   
+   <section id="footer" class="bg3">
     <!-- footer -->
-    <footer class="container" style="padding-top: 80px;">
+    <footer class="container" style="padding-top: 130px;">
       <div class="row">
-        <div class="col-14 col-md-4 mx-auto ">
+        <div class="col-12 col-md-12 col-xl-4 mx-auto ">
           <div class="container d-flex justify-content-center align-items-center">
               <img src="img/logo.png" alt="Gambar" class="image" width="100px"
               height="100px">
@@ -199,8 +206,8 @@
           </div>
         </div>
         </div>
-        <hr class="w-100 clearfix d-md-none " />
-        <div class="col-4 col-md mx-auto ">
+        <hr class="w-100 clearfix d-xl-none " />
+        <div class="col-4 col-md-4 col-xl mx-auto text-center text-md-center text-xl-start">
           <h5>Partnership</h5>
           <ul class="list-unstyled text-small">
             <li class="py-3"><a class="footer" href="#">Join reseller</a></li>
@@ -209,26 +216,26 @@
             <li class="pb-3"><a class="footer" href="#">Price List</a></li>
           </ul>
         </div>
-        <div class="col-4 col-md mx-auto ">
+        <div class="col-4 col-md-4 col-xl mx-auto text-center text-md-center text-xl-start">
           <h5>Site Map</h5>
           <ul class="list-unstyled text-small">
-              <li class="py-3"><a class="footer" href="#">Home</a></li>
-              <li class="pb-3"><a class="footer" href="#">Produk</a></li>
-              <li class="pb-3"><a class="footer" href="#">Cek Transaksi</a></li>
-              <li class="pb-3"><a class="footer" href="#">Kalkulator</a></li>
-              <li class="pb-3"><a class="footer" href="#">Hubungi Kami</a></li>
-              <li class="pb-3"><a class="footer" href="#">Reviews</a></li>
+              <li class="py-3"><a class="footer" href="homepage.html">Home</a></li>
+              <li class="pb-3"><a class="footer" href="produk.html">Produk</a></li>
+              <li class="pb-3"><a class="footer" href="transaksi.html">Cek Transaksi</a></li>
+              <li class="pb-3"><a class="footer" href="kalkulator.html">Kalkulator</a></li>
+              <li class="pb-3"><a class="footer" href="kontak.html">Hubungi Kami</a></li>
+              <li class="pb-3"><a class="footer" href="review.html">Reviews</a></li>
           </ul>
         </div>
-        <div class="col-4 col-md mx-auto ">
+        <div class="col-4 col-md-4 col-xl mx-auto text-center text-md-center text-xl-start">
           <h5>Legal</h5>
           <ul class="list-unstyled text-small">
               <li class="py-3"><a class="footer" href="privacy.html">Privacy Policy</a></li>
               <li class="pb-3"><a class="footer" href="term.html">Terms & Condition</a></li>
           </ul>
         </div>
-        <hr class="w-100 clearfix d-md-none" />
-        <div class="col-10 col-md-3 mx-auto ">
+        <hr class="w-100 clearfix d-xl-none" />
+        <div class="col-10 col-md-6 col-xl-3 mx-auto ">
           <h5 class="text-center">Payment Method</h5>
           <div class="container row row-cols-4 row-cols-md-4 g-2 py-3">
             <div class="col">
@@ -278,11 +285,6 @@
       </div>
     </footer>
     <!-- end footer -->
-   </section>
-   <!-- end kalkulatorpage -->
-
-   
-   <section id="footer" class="bg3">
    </section>
 
     <!-- Script to Bootstrap Js -->

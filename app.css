@@ -104,6 +104,48 @@ body{
     .bg3{
         height: 90vh;
     }
+    #member{
+        height: 180vh;
+    }
+    #membership{
+        height: 300vh;
+    }
+    #topup{
+        height: 230vh;
+    }
+    #detail{
+        height: 483vh;
+    }
+    #order{
+        height: 120vh;
+    }
+    #transaksi{
+        height: 470vh;
+    }
+    #kalkulator{
+        height: 80vh;
+    }
+    #kontak{
+        height: 220vh;
+    }
+    #artikel{
+        height: 290vh;
+    }
+    #artikel1{
+        height: 120vh;
+    }
+    #review{
+        height: 580vh;
+    }
+    #privacy{
+        height: 580vh;
+    }
+    #term{
+        height: 720vh;
+    }
+    #invoice{
+        height: 200vh;
+    }
   }
   @media (min-width: 768px) and (max-width: 991px) {
     .bg1{
@@ -124,6 +166,12 @@ body{
     .bg1111 {
         height: 171vh;
     }
+    #invoice{
+        height: 120vh;
+    }
+    #homepage{
+        height: 213vh;
+    }
     #review{
         height: 275vh;
     }
@@ -132,6 +180,39 @@ body{
     }
     #term{
         height: 270vh;
+    }
+    #member{
+        height: 80vh;
+    }
+    #membership{
+        height: 160vh;
+    }
+    #topup{
+        height: 130vh;
+    }
+    #profil{
+        height: 110vh;
+    }
+    #detail{
+        height: 225vh;
+    }
+    #order{
+        height: 80vh;
+    }
+    #produk{
+        height: 160vh;
+    }
+    #transaksi{
+        height: 340vh;
+    }
+    #kalkulator{
+        height: 50vh;
+    }
+    #artikel{
+        height: 100vh;
+    }
+    #artikel1{
+        height: 100vh;
     }
   }
   @media (min-width: 992px) {
@@ -147,6 +228,12 @@ body{
     .bg11{
         height: 165vh;
     }
+    #artikel{
+        height: 120vh;
+    }
+    #artikel1{
+        height: 120vh;
+    }
     #kontak{
         height: 138vh;
     }
@@ -161,6 +248,21 @@ body{
     }
     .bg1111 {
         height: 265vh;
+    }
+    #member{
+        height: 110vh;
+    }
+    #membership{
+        height: 200vh;
+    }
+    #profil{
+        height: 140vh;
+    }
+    #order{
+        height: 120vh;
+    }
+    #kalkulator{
+        height: 70vh;
     }
   }
 /* navbar */
@@ -300,6 +402,9 @@ nav .divider {
     .hero{
         padding-top: 20px;
     }
+    .button-artikels {
+        bottom: 180px !important;
+    }
   }
 
 .unggul .card{
@@ -357,7 +462,8 @@ nav .divider {
 .kategori .card .card-title{
     font-size: 15px;
 }
-.button-artikel {
+
+.button-artikels {
     position: absolute;
     bottom: 150px;
     left: 30px;
@@ -552,17 +658,28 @@ label{
 }
 @media (max-width: 768px) {
     .overlay {
-        top: 400px;
-        left: 35px;
+        top: 220px;
+        left: 30px;
         padding: 30px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 300px;
+    }
+    .carousel-item img{
+        height: 250px !important;
+    }
+    .layer::before{
+        height: 130px !important;
+        top: 160px !important;
     }
    
 }
 @media (min-width: 768px) and (max-width: 991px){
     .overlay {
-        top: 430px;
-        left: 50px;
-        padding: 30px;
+        top: 400px;
+        left: 65px;
+        padding: 60px;
     }
   }
 
@@ -659,3 +776,11 @@ label{
             border-radius: 10px;
             font-size: 10px;
         }
+
+    
+            .text-limit {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+              }
+       
